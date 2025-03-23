@@ -5,7 +5,7 @@
   "homepage": "https://t-cool.github.io/drum-machine",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && touch out/.nojekyll",
+    "build": "rm -rf out/ && next build && touch out/.nojekyll",
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",

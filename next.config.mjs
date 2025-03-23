@@ -2,8 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/drum-machine',
-  assetPrefix: '/drum-machine/',
-  trailingSlash: true,
+  assetPrefix: '/drum-machine',
   images: {
     unoptimized: true,
   },
